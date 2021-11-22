@@ -1,0 +1,33 @@
+.admin-test-progress-page {
+  // margin-left: 20px;
+  
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 40px;
+  
+  .test-title {
+    font-size: large;
+    font-weight: bold;
+  }
+
+  .test-date {
+    font-size: small;
+    margin-left: 15px;
+    color: #7f7f7f;
+  }
+
+  .test-timer {
+    font-size: medium;
+    margin-left: 5px;
+  }
+
+  .admin-test-board {
+    display: flex;
+    margin-top: 30px;
+    .admin-test-board-content {
+      flex: 1;
+      margin-right: 56px;
+      margin-left: 32px;
+    }
+  }
+}

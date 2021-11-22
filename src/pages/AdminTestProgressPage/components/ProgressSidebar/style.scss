@@ -1,0 +1,27 @@
+.Sidebar{
+    float : left;
+    width : 150px;
+    height : 600px;
+    display : block;
+    margin-right : 15px;
+    .accordion{
+      background-color : #FFFFFF;
+      cursor : pointer;
+      padding : 18px;
+      width : 100%;
+      border : none;
+      text-align : left;
+      outline : none;
+      font-size : 15px;
+      transition : 0.4s;
+    }
+    .buttonStyle {
+        border-radius: 0;
+        font-weight: normal;
+    
+      }
+    .active, .accordion:hover {
+        background-color : #FF9900;
+        color : #FFFFFF;
+    }
+}

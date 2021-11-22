@@ -1,0 +1,35 @@
+.LoginPage {
+  width: 100%;
+  margin-top: 10px;
+
+  .input {
+    font-size: 23px;
+    width: 100%;
+    margin-top: 50px;
+    margin-left: 100px;
+
+    .inputArea {
+      height: 35px;
+      font-size: 25px;
+    }
+
+    .margin {
+      margin-top: 10px;
+    }
+
+    .button {
+      margin-top: 30px;
+      background-color: #4CAF50; /* Green */
+      border: none;
+      color: white;
+      padding: 3px 5px;
+      text-align: center;
+      display: inline-block;
+      font-size: 30px;
+    }
+    .button:disabled {
+      background: #ccc;
+    }
+  }
+
+}

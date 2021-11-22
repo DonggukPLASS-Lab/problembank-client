@@ -1,0 +1,331 @@
+.CreateTestLayoutBody{
+    display : block; 
+}
+.CreateTestPage__Container {
+    display: flex;
+    flex-flow: nowrap row;
+    justify-content: center;
+    flex-basis: calc(100% - 165px);
+}
+
+.button{
+    border : 1px none #333333;
+    border-radius : 4px;
+    color : #FFFFFF;
+    padding : 4px 10px;
+    font-weight : bold;
+    background-color : #FF9900;
+}
+.testDate{
+    margin-top : 20px;
+    margin-bottom : 20px;
+    #data-name{
+	font-weight : bold;
+    }
+    .data-calander{
+    height : 26px;
+	width : 200px;
+	margin-left : 10px;
+	margin-right : 10px;
+    }
+}
+.testName2{
+    position : relative;
+    // left : 16px;
+    margin-top : 20px;
+    margin-bottom : 20px;
+    padding-left : 16px;
+    #name-text{
+	height : 26px;
+	width : 500px;
+	margin-left : 10px;
+    }
+}
+.termExam{
+    position : relative;
+    left : 40px;
+    margin-top : 20px;
+    margin-bottom : 20px;
+    padding-left : 10px;
+    #checkbox{
+	margin-right : 10px;
+    }
+}
+.className{
+    position : relative;
+    // left : 16px;
+    margin-top : 20px;
+    margin-bottom : 20px;
+    padding-left : 16px;
+    .select{
+	height : 26px;
+	width : 500px;
+	margin-left : 10px;
+    }
+}
+.testContent{
+    margin-top : 20px;
+    margin-bottom : 20px;
+    #textarea{
+	vertical-align : top;
+	margin-left:10px;
+	height : 130px;
+	width : 500px;
+	padding : 10px;
+    }
+}
+.selectProblem{
+    margin-top : 20px;
+    margin-bottom : 20px;
+    #select{
+	vertical-align : top;
+	margin-left : 10px;
+	margin-right : 10px;
+	height : 130px;
+	width : 200px;
+	padding : 10px;
+        overflow : hidden;
+    }
+}
+.save{
+    .button{
+        margin-left : 520px;
+    }
+}
+.test-info-container{
+    margin-top: 10px;
+    .test-info{
+        display: flex;
+        margin-bottom: 50px;
+        width: 100%;
+        &__title{
+            width: 20%;
+            padding-left: 5px;
+        }
+        &__content{
+            width: 100%;
+            &--name{
+                display: flex;
+                margin-bottom: 30px;
+                div{
+                    width: 45%;
+                    margin-right: 5%;
+                    label{
+                        display: block;
+                    }
+                    input{
+                        width: 100%;
+                        padding: 5px;
+                        border-radius: 5px;
+                    }
+                    select{
+                        margin-right: 5px;
+                        padding: 5px;
+                    }
+                }
+            }
+            &--date{
+                width: 100%;
+                margin-bottom: 30px;
+                .date-container{
+                    display: flex;
+                    align-items: center;
+                    justify-content: flex-start;
+                    span {
+                        margin-right: 5px;
+                    }
+                    input{
+                        padding: 2px;
+                        border-radius: 5px;
+                    }
+                    
+                }
+            }
+            
+        }
+    }
+
+}
+.test-problem-row{
+    // width: 20%;
+    display: flex;
+    .test-problem-title{
+        width: 20%;
+        padding-left: 5px;
+    }
+    .test-problem-list{
+        width: 100%;
+        // display: flex;
+        .problem-item{
+            // background: red;
+            margin-bottom: 10px;
+            width: 200px;
+            margin-right: 5px;
+            border-radius: 5px;
+            padding: 0px 10px;
+
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            &__name{
+                text-overflow: ellipsis;
+                overflow: hidden;
+                white-space: nowrap;
+                max-width: 180px;
+            }
+            &__task{
+                cursor: pointer;
+            }
+        }
+    }
+}
+.test-create-btn{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    button{
+        padding: 15px 60px;
+    }
+}
+
+#content-header{
+    margin-top : 10px;
+    margin-bottom : 10px;
+    padding-left : 5px;
+    padding-right : 5px;
+}
+
+// 흐엉
+.problem-info{
+    display: flex;
+    // margin-bottom: 50px;
+    width: 100%;
+    &__title{
+        width: 20%;
+        padding-left: 5px;
+    }
+    &__content{
+        width: 100%;
+
+        &--name{
+            display: flex;
+            margin-bottom: 30px;
+            div{
+                width: 45%;
+                margin-right: 5%;
+                label{
+                    display: block;
+                }
+                input{
+                    width: 100%;
+                    padding: 5px;
+                    border-radius: 5px;
+                }
+                select{
+                    margin-right: 5px;
+                    padding: 5px;
+                }
+            }
+        }
+
+        &--decs{
+            width: 100%;
+        }
+
+        &--category{
+            margin-top: 30px;
+            label{
+                display: block;
+                margin-bottom: 10px;
+            }
+            div select{
+                margin-right: 10px;
+                width: 200px;
+                padding: 5px;
+            }
+        }
+
+        &--ioexample{
+            display: flex;
+            width: 100%;
+            label{
+                display: block;
+                margin-bottom: 10px;
+            }
+            div{
+                width: 45%;
+                margin-right: 5%;
+                label{
+                    display: block;
+                }
+                input{
+                    width: 100%;
+                    padding: 5px;
+                    border-radius: 5px;
+                }
+            }
+        }
+        &--testcase{
+            width: 100%;
+            .list-testcase{
+                display: flex;
+                flex-direction: column;
+                .wrapper-input{
+                    width: 100%;
+                    display: flex;
+                    margin-top: 10px;
+                    > div{
+                        width: 45%;
+                        margin-right: 5%;
+                        label{
+                            display: block;
+                            margin-bottom: 10px;
+                        }
+                        textarea{
+                            width: 100%;
+                            padding: 5px;
+                            border-radius: 5px;
+                            resize: none;
+                        }
+                    }
+                    &:first-child{
+                        margin-top: 0px;
+                    }
+                }
+            }
+            button{
+                background: blue;
+                border: 1px solid transparent;
+                padding: 10px 25px;
+                margin-top: 10px;
+                color: white;
+                cursor: pointer;
+                &:hover{
+                    background: white;
+                    color: blue;
+                    border-color: blue;
+                }
+    
+            }
+        }
+    }
+    &__btn--insert{
+        text-align: center;
+        padding: 10px 0px 50px 0px;
+        button{
+            background: blue;
+            margin:0 10px;
+            border: 1px solid transparent;
+            padding: 10px 25px;
+            color: white;
+            cursor: pointer;
+            &:hover{
+                background: white;
+                color: blue;
+                border-color: blue;
+            }
+
+        }
+    }
+}

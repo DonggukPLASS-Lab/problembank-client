@@ -1,0 +1,55 @@
+.Sidebar {
+  width: 150px;
+  min-height: 90vh;
+  display: block;
+  margin-right: 15px;
+  background: #ccc;
+
+  .page-info-test{
+    color: #000000;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+    background: orange;
+    color: white;
+  }
+  
+  .panel {
+    // padding-left: 15px;
+    // display: none;
+    // background-color: white;
+    font-size: 12px;
+
+    .navLink {
+      color: #000000;
+      display: block;
+      padding: 10px;
+      height: 100%;
+      width: 100%;
+      transition: 0.4s;
+      // background: white;
+      cursor: pointer;
+    }
+    #navLink-active{
+      color: #FFFFFF;
+      background: gray;
+    }
+  }
+  .buttonStyle {
+    border-radius: 0;
+    font-weight: normal;
+
+  }
+
+  .active, .accordion:hover {
+    // background-color: white;
+    color: black;
+    border-top: gray;
+    // border-style:solid;
+  }
+}
