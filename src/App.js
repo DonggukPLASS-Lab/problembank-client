@@ -58,7 +58,7 @@ function App() {
 					<Route path = "/mylist" component = {Auth(MyProblems, true)}/>
 
 					<Route path = "/notice" component = {Auth(Notice, true)}/>
-					
+
 					{/* admin page */}
 					<Route path = "/admin" component = {Auth(AdminPage, true)}/>
 					<Route path = "/answercheck" component = {Auth(AnswerCheck, true)}/>

@@ -16,11 +16,10 @@ export default function(ComposedClass, load = false, adminRoute = null) {
 		React.useEffect(() => {
 			const query = qs.parse(window.location.search.slice(1));
 			/*
-            * @load: 인증한 컨테이너 결정한 값
-            * @id: 받은 유저 id
-            * @token: 유저별로 암호화된 token
-            */
-
+			* @load: 인증한 컨테이너 결정한 값
+			* @id: 받은 유저 id
+			* @token: 유저별로 암호화된 token
+			*/
 			if (load) {
 				// 없을때 저장된거 있는 token있는지 체크하면서 권한을 결정
 				if (!query.user_id && !query.token) {
@@ -75,7 +74,6 @@ export default function(ComposedClass, load = false, adminRoute = null) {
 									props.history.push('/warning');
 								}
 							} catch (error) {
-								console.log(error);
 								props.history.push('/warning');
 								localStorage.removeItem('project_manager');
 								localStorage.removeItem('redirect_token');
