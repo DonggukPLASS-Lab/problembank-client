@@ -50,7 +50,7 @@ function Header(props) {
 							<NavLink to="/mypage/mytest" activeClassName='active_class'>마이페이지(경진대회)</NavLink>
 						</li>
 						<li>
-							<NavLink to="/mylist"  activeClassName='active_class'>마이 페이지</NavLink>
+							<NavLink to="/mylist"  activeClassName='active_class'>마이 문제</NavLink>
 						</li>
 						{
 							userData && userData.roleId === 1 &&
